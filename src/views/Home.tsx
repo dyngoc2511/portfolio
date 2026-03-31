@@ -33,35 +33,35 @@ export function Home({ onNavigate, scrollTarget, onScrollComplete }: HomeProps) 
       category: "Growth Lead @ Deviation Lab",
       description: "Conceptualized and built an automated UGC ecosystem powered entirely by AI to drive high-volume, cost-effective user acquisition.",
       size: "large" as const,
-      image: "./cover.png"
+      image: import.meta.env.BASE_URL + "cover.png"
     },
     {
       id: "product-design-ai",
       title: "Product Design for Multi-Modal AI Apps",
       category: "Product Designer @ Various AI Startups",
       description: "Architected end-to-end user journeys and scalable design systems for a portfolio of multi-modal AI applications.",
-      image: "./App_graphic_white_202603301111.jpeg"
+      image: import.meta.env.BASE_URL + "App_graphic_white_202603301111.jpeg"
     },
     {
       id: "short-video-viral",
       title: "Cracking the Short-Video Viral Formula",
       category: "Independent Digital Strategist",
       description: "Organically grew a global audience from scratch by identifying and exploiting content trends on TikTok and Instagram.",
-      image: "./da.png"
+      image: import.meta.env.BASE_URL + "da.png"
     },
     {
       id: "b2b-ecommerce",
       title: "Tech-Enabled Alibaba Store",
       category: "Co-founder @ DreamCraft Ltd.",
       description: "Established a tech-forward B2B e-commerce model to modernize regional supply chains in the handicraft industry.",
-      image: "./banner 2.png"
+      image: import.meta.env.BASE_URL + "banner 2.png"
     },
     {
       id: "bid-floor-optimization",
       title: "Advanced Ad Monetization Optimization",
       category: "Ads Monetization @ iKame Global",
       description: "Maximized ad revenue and optimized the monetization stack across a portfolio of global gaming hits.",
-      image: "./ikm.png"
+      image: import.meta.env.BASE_URL + "ikm.png"
     }
   ];
 
@@ -193,7 +193,7 @@ export function Home({ onNavigate, scrollTarget, onScrollComplete }: HomeProps) 
               <div className="w-full h-full relative transition-transform duration-700 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                 {/* Front */}
                 <div className="absolute inset-0 [backface-visibility:hidden] glass-panel rounded-2xl border border-white/5 shadow-2xl overflow-hidden">
-                  <img src="./dyn.png" alt="Scarlett" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
+                  <img src={import.meta.env.BASE_URL + "dyn.png"} alt="Scarlett" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
                 </div>
                 {/* Back */}
                 <div className="absolute inset-0 [backface-visibility:hidden] [transform:rotateY(180deg)] glass-panel rounded-2xl border border-white/5 shadow-2xl overflow-hidden flex flex-col items-center justify-center bg-[#141414] p-8 text-center">
@@ -364,47 +364,47 @@ export function Home({ onNavigate, scrollTarget, onScrollComplete }: HomeProps) 
               title="Vice President at Study Abroad Club (FTU)"
               category="08/2021 – 07/2022"
               description="Provided strategic direction and developed annual goals for 80+ team members"
-              image="./pams.png"
+              image={import.meta.env.BASE_URL + "pams.png"}
               onClick={() => onNavigate("case-study", "study-abroad-club")}
             />
             <ProjectCard 
               title="Community Builder (RedditVN & WeiboVN)"
               category="2019 – 2020"
               description="Built and managed communities on Weibo Vietnam and Reddit Vietnam."
-              image="./wb.png"
+              image={import.meta.env.BASE_URL + "wb.png"}
               onClick={() => onNavigate("case-study", "community-builder")}
             />
             <ProjectCard 
               title="Top 21 Peaking Point 2021"
               category="2021"
               description="Achieved Top 21 in Peaking Point 2021."
-              image="./pkp.png"
+              image={import.meta.env.BASE_URL + "pkp.png"}
               onClick={() => window.open("https://docs.google.com/presentation/d/1WSHBlZ9syM5QBk_BidJKtRDZwBlktfXw/edit?slide=id.p1#slide=id.p1", "_blank")}
             />
             <ProjectCard 
               title="Top 6 King Of Marketing 2022"
               category="2022"
               description="Achieved Top 6 in King Of Marketing 2022."
-              image="./vuamkt.jpg"
+              image={import.meta.env.BASE_URL + "vuamkt.jpg"}
               onClick={() => window.open("https://docs.google.com/presentation/d/1q-v6eRTA9DMrvlN_zryuJCFGWewT8JwQ/edit?slide=id.p1#slide=id.p1", "_blank")}
             />
             <ProjectCard 
               title="Marketing - AYAN 2020"
               category="2020"
               description="The ASEAN Youth Advocates Network is an international youth-led, non-profit, and non-governmental organization established to pave the way for the ASEAN youth to experience involvement in their localities through a series of advocacy-based initiatives.."
-              image="./ayan.png"
+              image={import.meta.env.BASE_URL + "ayan.png"}
             />
             <ProjectCard 
               title="Organizer - Green Summer Project 2019"
               category="2019"
               description="Les Coeurs D'or is the second season of the Green Summer Project, a volunteer project focused on charity and human kindness, founded by a group of high school and university students in Hanoi."
-              image="./les.png"
+              image={import.meta.env.BASE_URL + "les.png"}
             />
             <ProjectCard 
               title="Content Creator - The Glow Project 2019"
               category="2019"
               description="The Glow Project is a project by high school and university students in Hanoi aimed at changing people's perceptions and understanding of body-shaming."
-              image="./glw.png"
+              image={import.meta.env.BASE_URL + "glw.png"}
             />
           </div>
         </div>

@@ -19,14 +19,14 @@ export function CaseStudy({ projectId, onBack }: CaseStudyProps) {
         { value: "1.5%", label: "Conversion Rate" },
         { value: "80%", label: "Organic Acquisition" },
       ],
-      heroImage: "./cover.png",
+      heroImage: import.meta.env.BASE_URL + "cover.png",
       problem: "The Challenge",
       problemDesc: "Driving high-volume, cost-effective user acquisition in Tier 1 and US markets without depleting traditional performance marketing budgets. The core operational bottleneck was scaling high-quality video production, requiring a shift from manual creation to highly automated, AI-driven workflows capable of sustaining massive output.",
       strategy: "By integrating AI and hyper-automation tools into our creative production workflows, I developed 40+ AI micro-channels. These channels were engineered to imitate real personas (artists, movie trailers, KOCs) and specifically targeted Tier 1 and US users. I reverse-engineered short-video algorithms to build a 'viral formula,' applying it uniformly across the network.",
       showcasePhones: [
-        "./IMG_0244.webp",
-        "./IMG_0245.webp",
-        "./IMG_0246.webp",
+        import.meta.env.BASE_URL + "IMG_0244.webp",
+        import.meta.env.BASE_URL + "IMG_0245.webp",
+        import.meta.env.BASE_URL + "IMG_0246.webp",
       ],
       impactPosts: [
         {
@@ -59,7 +59,7 @@ export function CaseStudy({ projectId, onBack }: CaseStudyProps) {
         { value: "A/B", label: "Tested Setups" },
         { value: "Global", label: "Alignment" },
       ],
-      heroImage: "./ikm.png",
+      heroImage: import.meta.env.BASE_URL + "ikm.png",
       problem: "The Challenge",
       problemDesc: "To maximize ad revenue and optimize the existing monetization stack across iKame’s portfolio of global gaming hits without compromising the end-user experience.",
       strategy: "I conducted in-depth research and analysis on current SDK integration flows and performance metrics. Utilizing major mediation platforms (MAX, AdMob), I built a custom formula and algorithm to dynamically optimize the waterfall, ad placements, and targeting strategies. I aggressively A/B tested these setups to find the perfect balance between revenue generation and user retention.",
@@ -81,11 +81,11 @@ export function CaseStudy({ projectId, onBack }: CaseStudyProps) {
       ],
       heroType: "phones",
       phoneImages: [
-        "./IMG_1640.png",
-        "./kunin.png",
-        "./IMG_3737.png",
+        import.meta.env.BASE_URL + "IMG_1640.png",
+        import.meta.env.BASE_URL + "kunin.png",
+        import.meta.env.BASE_URL + "IMG_3737.png",
       ],
-      heroImage: "./da.png",
+      heroImage: import.meta.env.BASE_URL + "da.png",
       problem: "The Challenge",
       problemDesc: "To organically grow a global audience from scratch by identifying and exploiting content trends on highly competitive short-video platforms like TikTok and Instagram.",
       strategy: "Operating entirely independently, I launched a portfolio of social channels targeting both US and Vietnamese markets. I meticulously analyzed retention graphs, hook rates, and key engagement metrics to iteratively A/B test video formats. This data-driven approach allowed me to isolate the exact variables that trigger algorithmic distribution.",
@@ -109,16 +109,16 @@ export function CaseStudy({ projectId, onBack }: CaseStudyProps) {
       heroType: "youtube",
       youtubeId: "TVPbcbzyOSY", // Replace with your actual YouTube video ID
       bottomCollageImages: [
-        "./drc3.png",
-        "./drc2.png",
-        "./drc6.png",
-        "./drc7.png",
-        "./Screenshot 2026-03-30 182325.png",
-        "./drc8.png",
-        "./Screenshot 2026-03-30 182150.png",
-        "./drc1.png",
-        "./drc5.png",
-        "./drc4.png",
+        import.meta.env.BASE_URL + "drc3.png",
+        import.meta.env.BASE_URL + "drc2.png",
+        import.meta.env.BASE_URL + "drc6.png",
+        import.meta.env.BASE_URL + "drc7.png",
+        import.meta.env.BASE_URL + "Screenshot 2026-03-30 182325.png",
+        import.meta.env.BASE_URL + "drc8.png",
+        import.meta.env.BASE_URL + "Screenshot 2026-03-30 182150.png",
+        import.meta.env.BASE_URL + "drc1.png",
+        import.meta.env.BASE_URL + "drc5.png",
+        import.meta.env.BASE_URL + "drc4.png",
       ],
       problem: "The Challenge",
       problemDesc: "The traditional handicraft industry in Ninh Binh Province was broken—local artisans were underpaid, and the market was monopolized by legacy companies lacking technical expertise. The goal was to bridge this gap using digital infrastructure.",
@@ -140,31 +140,31 @@ export function CaseStudy({ projectId, onBack }: CaseStudyProps) {
         {
           title: "DeepFinder: AI Profile Search",
           description: "Architected End-to-End User Journeys: Designed comprehensive user flows for a high-density search application. Developed intuitive Splash, Onboarding, and In-App Purchase (IAP) flows that balanced user education with frictionless conversion pathways.",
-          images: ["./df.png"],
+          images: [import.meta.env.BASE_URL + "df.png"],
           link: "https://play.google.com/store/apps/details?id=com.ai.deepfinder.assistant.profilesearch"
         },
         {
           title: "AI Translator",
           description: "Designed a comprehensive AI translation app integrating diverse inputs—Text, Camera (OCR), Voice, and File Upload—into a unified, intuitive interface. Mapped out granular edge cases and user states (e.g., Quick Translation, History, Favorites, App Rating logic).",
-          images: ["./TRS.png"],
+          images: [import.meta.env.BASE_URL + "TRS.png"],
           link: "#"
         },
         {
           title: "AI Girlfriend Dating",
           description: "Designed the core interaction model and visual identity for an AI-driven dating simulation, focusing on emotional engagement and conversational flow.",
-          images: ["./aig1.png"],
+          images: [import.meta.env.BASE_URL + "aig1.png"],
           link: "https://play.google.com/store/apps/details?id=aigirlfriend.huggingface"
         },
         {
           title: "LucidFM - Intimate Audio Stories",
           description: "Developed a scalable vibecode onboarding and paywall system for an audio-first entertainment platform.",
-          images: ["./lucid2.png"],
+          images: [import.meta.env.BASE_URL + "lucid2.png"],
           link: "https://apps.apple.com/us/app/lucidfm-your-safe-place-here/id6755679513"
         },
         {
           title: "MangaVerse",
           description: "Designed an immersive reading experience for manga and webtoons.",
-          images: ["./manga3.png"],
+          images: [import.meta.env.BASE_URL + "manga3.png"],
           link: "#"
         }
       ]
@@ -180,7 +180,7 @@ export function CaseStudy({ projectId, onBack }: CaseStudyProps) {
         { value: "50+", label: "Stakeholders" },
         { value: "220%", label: "Participants" },
       ],
-      heroImage: "./n.png",
+      heroImage: import.meta.env.BASE_URL + "n.png",
       problem: "The Challenge",
       problemDesc: "Managing a large student organization and driving engagement for community initiatives.",
       strategy: "Provided strategic direction and developed annual goals for 80+ team members with a portfolio of 6 different products. Built and managed agreements with 50+ key external stakeholders, exhibiting excellent consultation skills to secure funding and resources for community initiatives.",
@@ -195,9 +195,9 @@ export function CaseStudy({ projectId, onBack }: CaseStudyProps) {
           link: "https://www.facebook.com/exbroadrunway",
           linkText: "View on Facebook",
           images: [
-            "./ex.png",
-            "./ex2.png",
-            "./ex3.png"
+            import.meta.env.BASE_URL + "ex.png",
+            import.meta.env.BASE_URL + "ex2.png",
+            import.meta.env.BASE_URL + "ex3.png"
           ]
         },
         {
@@ -207,9 +207,9 @@ export function CaseStudy({ projectId, onBack }: CaseStudyProps) {
           link: "https://www.facebook.com/studyabroadclub.ftu",
           linkText: "View on Facebook",
           images: [
-            "./cl.jpg",
-            "./cl2.jpg",
-            "./cl3.jpg"
+            import.meta.env.BASE_URL + "cl.jpg",
+            import.meta.env.BASE_URL + "cl2.jpg",
+            import.meta.env.BASE_URL + "cl3.jpg"
           ]
         },
         {
@@ -219,16 +219,16 @@ export function CaseStudy({ projectId, onBack }: CaseStudyProps) {
           link: "https://www.facebook.com/groups/250645246936939",
           linkText: "View on Facebook",
           images: [
-            "./Screenshot 2026-03-30 191751.png",
-            "./279158583_2158494304306961_4499888427177801078_n.jpg",
-            "./Screenshot 2026-03-30 191812.png"
+            import.meta.env.BASE_URL + "Screenshot 2026-03-30 191751.png",
+            import.meta.env.BASE_URL + "279158583_2158494304306961_4499888427177801078_n.jpg",
+            import.meta.env.BASE_URL + "Screenshot 2026-03-30 191812.png"
           ]
         },
         {
           title: "Workshop: AI-Driven K-Dance With SM Institute",
           description: "An innovative dance workshop leveraging AI technology and top-tier instructors from SM Institute.",
           results: "Delivered a unique, tech-forward cultural experience to participants, blending traditional K-Dance with modern AI analysis.",
-          images: ["./pams3.jpg", "./pams.png", "./pams.png"]
+          images: [import.meta.env.BASE_URL + "pams3.jpg", import.meta.env.BASE_URL + "pams.png", import.meta.env.BASE_URL + "pams.png"]
         }
       ],
      
@@ -239,7 +239,7 @@ export function CaseStudy({ projectId, onBack }: CaseStudyProps) {
       title: "Community Builder",
       category: "2019 – 2020",
       description: "Built and managed communities on Weibo Vietnam and Reddit Vietnam.",
-      heroImage: "./wb.png",
+      heroImage: import.meta.env.BASE_URL + "wb.png",
       posts: [
         {
           platform: "Weibo Vietnam",
@@ -547,7 +547,7 @@ export function CaseStudy({ projectId, onBack }: CaseStudyProps) {
                       <div className="absolute top-1 left-1/2 -translate-x-1/2 w-1 h-1 bg-background rounded-full z-20"></div>
                       {/* Image Placeholder */}
                       <img 
-                        src="./222.png" 
+                        src={import.meta.env.BASE_URL + "222.png"} 
                         alt="Workflow Dashboard" 
                         className="w-full h-full object-cover"
                         referrerPolicy="no-referrer"
@@ -571,7 +571,7 @@ export function CaseStudy({ projectId, onBack }: CaseStudyProps) {
                       <div className="absolute top-1 left-1/2 -translate-x-1/2 w-1 h-1 bg-background rounded-full z-20"></div>
                       {/* Image Placeholder */}
                       <img 
-                        src="./workflow.png" 
+                        src={import.meta.env.BASE_URL + "workflow.png"} 
                         alt="Workflow Dashboard 2" 
                         className="w-full h-full object-cover"
                         referrerPolicy="no-referrer"
@@ -607,7 +607,7 @@ export function CaseStudy({ projectId, onBack }: CaseStudyProps) {
                       <div className="absolute top-1 left-1/2 -translate-x-1/2 w-1 h-1 bg-background rounded-full z-20"></div>
                       {/* Image Placeholder */}
                       <img 
-                        src="./meoo.png" 
+                        src={import.meta.env.BASE_URL + "meoo.png"} 
                         alt="Workflow Dashboard 3" 
                         className="w-full h-full object-cover"
                         referrerPolicy="no-referrer"
@@ -852,13 +852,13 @@ export function CaseStudy({ projectId, onBack }: CaseStudyProps) {
               </div>
               <div className="grid md:grid-cols-3 gap-8">
                 <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-lg border border-white/5">
-                  <img src="./IMG_3839.webp" className="w-full h-full object-cover" />
+                  <img src={import.meta.env.BASE_URL + "IMG_3839.webp"} className="w-full h-full object-cover" />
                 </div>
                 <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-lg border border-white/5">
-                  <img src="./Screenshot 2026-03-30 183251.png" alt="Feedback 2" className="w-full h-full object-cover" />
+                  <img src={import.meta.env.BASE_URL + "Screenshot 2026-03-30 183251.png"} alt="Feedback 2" className="w-full h-full object-cover" />
                 </div>
                 <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-lg border border-white/5">
-                  <img src="./IMG_3840.webp" alt="Feedback 3" className="w-full h-full object-cover" />
+                  <img src={import.meta.env.BASE_URL + "IMG_3840.webp"} alt="Feedback 3" className="w-full h-full object-cover" />
                 </div>
               </div>
             </div>
