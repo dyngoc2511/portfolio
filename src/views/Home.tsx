@@ -197,7 +197,7 @@ export function Home({ onNavigate, scrollTarget, onScrollComplete }: HomeProps) 
                 </div>
                 {/* Back */}
                 <div className="absolute inset-0 [backface-visibility:hidden] [transform:rotateY(180deg)] glass-panel rounded-2xl border border-white/5 shadow-2xl overflow-hidden">
-                  <img src={import.meta.env.BASE_URL + "scarlett-back.png"} alt="Scarlett Back" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
+                  <img src="scarlett-back.png" alt="Scarlett Back" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
                 </div>
               </div>
             </motion.div>
