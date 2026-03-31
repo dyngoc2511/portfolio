@@ -33,7 +33,7 @@ export function Contact() {
                 <span className="font-headline text-base text-secondary group-hover:text-primary">Professional</span>
                 <ArrowUpRight size={14} className="absolute top-6 right-6 text-outline-variant group-hover:text-primary transition-all" />
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer" className="group relative flex flex-col p-8 bg-surface-low border border-white/5 transition-all duration-500 hover:border-white/20">
+              <a href="https://drive.google.com/file/d/1PvDlyevgFdoHAbcDlhQGz78GSzPc_cTW/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="group relative flex flex-col p-8 bg-surface-low border border-white/5 transition-all duration-500 hover:border-white/20">
                 <span className="text-[9px] text-outline-variant mb-3 uppercase tracking-widest group-hover:text-secondary">Resume</span>
                 <span className="font-headline text-base text-secondary group-hover:text-primary">View CV</span>
                 <ArrowUpRight size={14} className="absolute top-6 right-6 text-outline-variant group-hover:text-primary transition-all" />
