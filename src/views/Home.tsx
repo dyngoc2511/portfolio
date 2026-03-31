@@ -196,14 +196,8 @@ export function Home({ onNavigate, scrollTarget, onScrollComplete }: HomeProps) 
                   <img src={import.meta.env.BASE_URL + "dyn.png"} alt="Scarlett" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
                 </div>
                 {/* Back */}
-                <div className="absolute inset-0 [backface-visibility:hidden] [transform:rotateY(180deg)] glass-panel rounded-2xl border border-white/5 shadow-2xl overflow-hidden flex flex-col items-center justify-center bg-[#141414] p-8 text-center">
-                  <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-6 border border-primary/20">
-                    <span className="text-2xl">✨</span>
-                  </div>
-                  <h3 className="text-2xl font-headline font-bold text-white mb-3">Scarlett</h3>
-                  <p className="text-secondary text-sm leading-relaxed">
-                    An individual with relentless ambition and a resilient spirit that pushes her to face challenges without hesitation.
-                  </p>
+                <div className="absolute inset-0 [backface-visibility:hidden] [transform:rotateY(180deg)] glass-panel rounded-2xl border border-white/5 shadow-2xl overflow-hidden">
+                  <img src={import.meta.env.BASE_URL + "scarlett-back.png"} alt="Scarlett Back" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
                 </div>
               </div>
             </motion.div>
